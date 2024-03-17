@@ -1,8 +1,8 @@
-## Post-Compromise - Defence Overview
+## Post Compromise - Defence Overview
 Looking back at the Event Viewer on the domain controller, we can find the following events being logged in the domain controller during the different attacking stages of the pentest.
 
 ### NTLM Authentication
-While conducting pass-the-hash attacks on the clients we could see the following event being logged in the system:
+While conducting Pass-The-Hash attacks on the clients we could see the following event being logged in the system:
 ![NTLM Warning](images/NTLM_warning.png)
 
 Mitigation techniques to remove this vulnerability is to disable/restrict NTLM authentication within the domain.
