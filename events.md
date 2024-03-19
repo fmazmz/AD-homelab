@@ -12,4 +12,4 @@ Disabling the NTLM authentication in the domain can be done through the GPME on 
 ![NTLM Controls](images/disable_NTLM.png)
 
 
-
+### Mimikatz Dump from the Domain Controller
