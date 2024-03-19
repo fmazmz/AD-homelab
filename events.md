@@ -21,3 +21,6 @@ The following event was identified in the Event Manager in the DC when users whe
 As we compromised the DC and got admin privilages, we were able to request a golden ticket from the TGS.
 The event was recorded in the Event Manager as the following:
 ![Kerberos](images/kerberos_request.png)
+
+
+### Steps of remediation:::
