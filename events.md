@@ -12,6 +12,12 @@ Disabling the NTLM authentication in the domain can be done through the GPME on 
 ![NTLM Controls](images/disable_NTLM.png)
 
 
-### Mimikatz Dump from the Domain Controller
-The following event was identified in the event manager in the DC when users where enumerated using Mimikatz LSASS.
+### Mimikatz LSASS Dump
+The following event was identified in the Event Manager in the DC when users where enumerated using Mimikatz LSASS.
 ![Mimikatz](images/lsass_dump_mimikatz.png)
+
+
+### Kerberos Ticket Request
+As we compromised the DC and got admin privilages, we were able to request a golden ticket from the TGS.
+The event was recorded in the Event Manager as the following:
+![Kerberos](images/kerberos_request.png)
