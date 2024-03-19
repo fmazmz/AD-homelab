@@ -13,3 +13,5 @@ Disabling the NTLM authentication in the domain can be done through the GPME on 
 
 
 ### Mimikatz Dump from the Domain Controller
+The following event was identified in the event manager in the DC when users where enumerated using Mimikatz LSASS.
+![Mimikatz](images/lsass_dump_mimikatz.png)
